@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		DE2B65E923E30827000B113E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B65E823E30827000B113E /* AppDelegate.swift */; };
 		DE2B65EB23E30827000B113E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B65EA23E30827000B113E /* SceneDelegate.swift */; };
-		DE2B65ED23E30827000B113E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B65EC23E30827000B113E /* ViewController.swift */; };
+		DE2B65ED23E30827000B113E /* ClassroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B65EC23E30827000B113E /* ClassroomViewController.swift */; };
 		DE2B65F023E30827000B113E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2B65EE23E30827000B113E /* Main.storyboard */; };
 		DE2B65F323E30827000B113E /* LibraryBookTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE2B65F123E30827000B113E /* LibraryBookTracker.xcdatamodeld */; };
-		DE2B65F523E30829000B113E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2B65F423E30829000B113E /* Assets.xcassets */; };
-		DE2B65F823E30829000B113E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2B65F623E30829000B113E /* LaunchScreen.storyboard */; };
+		DE2B660623E331A2000B113E /* BookOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B660523E331A2000B113E /* BookOwnerViewController.swift */; };
+		DE2B660923E33216000B113E /* ClassroomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B660823E33216000B113E /* ClassroomService.swift */; };
+		DE2B660B23E336BA000B113E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2B660A23E336BA000B113E /* Assets.xcassets */; };
+		DE2B660D23E33A69000B113E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B660C23E33A69000B113E /* CameraViewController.swift */; };
+		DE2B660F23E33E10000B113E /* BookDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B660E23E33E10000B113E /* BookDetailsService.swift */; };
+		DE2B661123E705B7000B113E /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B661023E705B7000B113E /* BookDetails.swift */; };
+		DE2B661323E73BD7000B113E /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B661223E73BD7000B113E /* BookModel.swift */; };
+		DE2B661523E73F0A000B113E /* SaveDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2B661423E73F0A000B113E /* SaveDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE2B65E523E30827000B113E /* LibraryBookTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryBookTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2B65E523E30827000B113E /* Book Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2B65E823E30827000B113E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2B65EA23E30827000B113E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE2B65EC23E30827000B113E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE2B65EC23E30827000B113E /* ClassroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomViewController.swift; sourceTree = "<group>"; };
 		DE2B65EF23E30827000B113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2B65F223E30827000B113E /* LibraryBookTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LibraryBookTracker.xcdatamodel; sourceTree = "<group>"; };
-		DE2B65F423E30829000B113E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE2B65F723E30829000B113E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2B65F923E30829000B113E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2B660523E331A2000B113E /* BookOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookOwnerViewController.swift; sourceTree = "<group>"; };
+		DE2B660823E33216000B113E /* ClassroomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomService.swift; sourceTree = "<group>"; };
+		DE2B660A23E336BA000B113E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2B660C23E33A69000B113E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DE2B660E23E33E10000B113E /* BookDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsService.swift; sourceTree = "<group>"; };
+		DE2B661023E705B7000B113E /* BookDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		DE2B661223E73BD7000B113E /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		DE2B661423E73F0A000B113E /* SaveDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +62,7 @@
 		DE2B65E623E30827000B113E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE2B65E523E30827000B113E /* LibraryBookTracker.app */,
+				DE2B65E523E30827000B113E /* Book Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +72,60 @@
 			children = (
 				DE2B65E823E30827000B113E /* AppDelegate.swift */,
 				DE2B65EA23E30827000B113E /* SceneDelegate.swift */,
-				DE2B65EC23E30827000B113E /* ViewController.swift */,
-				DE2B65EE23E30827000B113E /* Main.storyboard */,
-				DE2B65F423E30829000B113E /* Assets.xcassets */,
-				DE2B65F623E30829000B113E /* LaunchScreen.storyboard */,
+				DE2B65FF23E30848000B113E /* Model */,
+				DE2B660023E30853000B113E /* View */,
+				DE2B660123E3085C000B113E /* Controller */,
+				DE2B660723E331AE000B113E /* Service */,
 				DE2B65F923E30829000B113E /* Info.plist */,
-				DE2B65F123E30827000B113E /* LibraryBookTracker.xcdatamodeld */,
+				DE2B660223E308BC000B113E /* Stuff */,
 			);
 			path = LibraryBookTracker;
+			sourceTree = "<group>";
+		};
+		DE2B65FF23E30848000B113E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B65F123E30827000B113E /* LibraryBookTracker.xcdatamodeld */,
+				DE2B661023E705B7000B113E /* BookDetails.swift */,
+				DE2B661223E73BD7000B113E /* BookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE2B660023E30853000B113E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B65EE23E30827000B113E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE2B660123E3085C000B113E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B65EC23E30827000B113E /* ClassroomViewController.swift */,
+				DE2B660523E331A2000B113E /* BookOwnerViewController.swift */,
+				DE2B660C23E33A69000B113E /* CameraViewController.swift */,
+				DE2B661423E73F0A000B113E /* SaveDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE2B660223E308BC000B113E /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B660A23E336BA000B113E /* Assets.xcassets */,
+			);
+			path = Stuff;
+			sourceTree = "<group>";
+		};
+		DE2B660723E331AE000B113E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DE2B660823E33216000B113E /* ClassroomService.swift */,
+				DE2B660E23E33E10000B113E /* BookDetailsService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +145,7 @@
 			);
 			name = LibraryBookTracker;
 			productName = LibraryBookTracker;
-			productReference = DE2B65E523E30827000B113E /* LibraryBookTracker.app */;
+			productReference = DE2B65E523E30827000B113E /* Book Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,8 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2B65F823E30829000B113E /* LaunchScreen.storyboard in Resources */,
-				DE2B65F523E30829000B113E /* Assets.xcassets in Resources */,
+				DE2B660B23E336BA000B113E /* Assets.xcassets in Resources */,
 				DE2B65F023E30827000B113E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2B65ED23E30827000B113E /* ViewController.swift in Sources */,
+				DE2B661323E73BD7000B113E /* BookModel.swift in Sources */,
+				DE2B65ED23E30827000B113E /* ClassroomViewController.swift in Sources */,
+				DE2B660923E33216000B113E /* ClassroomService.swift in Sources */,
+				DE2B661523E73F0A000B113E /* SaveDetailsViewController.swift in Sources */,
 				DE2B65E923E30827000B113E /* AppDelegate.swift in Sources */,
 				DE2B65EB23E30827000B113E /* SceneDelegate.swift in Sources */,
+				DE2B660D23E33A69000B113E /* CameraViewController.swift in Sources */,
+				DE2B661123E705B7000B113E /* BookDetails.swift in Sources */,
+				DE2B660F23E33E10000B113E /* BookDetailsService.swift in Sources */,
 				DE2B65F323E30827000B113E /* LibraryBookTracker.xcdatamodeld in Sources */,
+				DE2B660623E331A2000B113E /* BookOwnerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,14 +221,6 @@
 				DE2B65EF23E30827000B113E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE2B65F623E30829000B113E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE2B65F723E30829000B113E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.briansurgenor.LibraryBookTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Book Tracker";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.briansurgenor.LibraryBookTracker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Book Tracker";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
